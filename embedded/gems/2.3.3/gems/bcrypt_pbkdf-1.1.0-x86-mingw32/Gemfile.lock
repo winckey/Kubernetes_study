@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    bcrypt_pbkdf (1.1.0-x86-mingw32)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (1.8.6)
+    minitest (5.16.3)
+    openssl (3.0.1)
+    rake (13.0.6)
+    rake-compiler (1.1.9)
+      rake
+    rake-compiler-dock (1.0.1)
+    rdoc (3.12.2)
+      json (~> 1.4)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  bcrypt_pbkdf!
+  minitest (>= 5)
+  openssl
+  rake-compiler (~> 1.1.0)
+  rake-compiler-dock (~> 1.0.1)
+  rdoc (~> 3.12)
+
+BUNDLED WITH
+   2.1.4

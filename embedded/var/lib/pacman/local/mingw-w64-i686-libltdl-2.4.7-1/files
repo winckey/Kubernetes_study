@@ -1,0 +1,14 @@
+%FILES%
+mingw32/
+mingw32/bin/
+mingw32/bin/libltdl-7.dll
+mingw32/include/
+mingw32/include/libltdl/
+mingw32/include/libltdl/lt_dlloader.h
+mingw32/include/libltdl/lt_error.h
+mingw32/include/libltdl/lt_system.h
+mingw32/include/ltdl.h
+mingw32/lib/
+mingw32/lib/libltdl.a
+mingw32/lib/libltdl.dll.a
+
