@@ -1,0 +1,52 @@
+kubectl
+
+kubeadm? ?
+
+kubeadm join --token 123456.1234567890123456 awsdasd asdf asdf asdg  --discovery-token-unsafe-skip-ca-verification 192.168.1.10
+
+
+- 애플리케이션 : 기능을 하는 이미지 동작단위
+
+파드 = 도커
+
+컨테이너 (여려개) =>파드 (여러개) => 애플리케이션
+
+kubectl 명령
+get - 조회
+
+run, create , apply - 오브젝트생성
+
+delete - 오브젝트 삭제
+
+exec - 파드내부에 컨테이너로 접속
+
+scale -파드갯수를 늘리거나 줄임
+
+edit - 배포된 오브젝트를 수정
+
+k get events
+
+k describe pod name 다양한 정보 획득 
+
+k log pod name 
+
+이벤트를 확인하고 문제인지 -> 로그 확인 
+
+
+dry run =client -o yaml
+=> 
+
+apply pod 와 디플로이 먼트 차이 ???? 
+
+/////////////////////////////
+pod => yaml으로 구성
+
+replicaset이란???  deployment와 차이 
+디플로이먼트가 재 빌드될때 시스템을 유지하기 위한 임시 디플로이먼트
+디플로이먼트가 리플리카의 상위 개념 
+
+
+
+
+
+
